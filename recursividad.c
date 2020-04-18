@@ -11,7 +11,7 @@ long factorial(int n)
         return (n * factorial(n - 1));
 }
 
-main(int argc, char const *arrg[])
+main(int argc, char const *argv[])
 {
     printf("Ingrese el numero a calcular\n");
         scanf("%d", &n);
